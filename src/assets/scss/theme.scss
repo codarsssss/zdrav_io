@@ -1,0 +1,39 @@
+//Важно: Не писать здесь CSS. Этот файл предназначен только для импортов других CSS файлов.
+//Важно: '~' означает что файл импортирован из node_models.
+
+
+//Bootstarp Functions
+@import "~bootstrap/scss/functions";
+
+//Bootstrap Mixins
+@import "~bootstrap/scss/mixins";
+
+//Framework SASS Variables
+@import "abstracts/sass-variables";
+
+//Bootstrap SASS Vars
+@import "~bootstrap/scss/variables";
+
+//Framework SASS Map Amends
+@import "abstracts/map-amends";
+
+//Framework Mixins
+@import "abstracts/mixins";
+
+//Framework Utilities
+@import "utilities/utilities";
+
+//Bootrap Core
+@import "~bootstrap/scss/bootstrap";
+
+//Framework Custom Properties
+@import "abstracts/css-vars";
+
+//Framework Base
+@import "base/base";
+
+//Framework Components
+@import "components/components";
+
+//Framework Vendor Overrides
+@import "vendors/vendors";
